@@ -1,0 +1,158 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-shadow: border-box;
+}
+
+body{
+	background: #e2ace5;
+	font-family: Arial;
+}
+
+.title_body h1{
+	text-align: center;
+	font-size: 35px;
+	margin: 15px 0px 10px;
+	color: #FFFFFF;
+	text-shadow: 0px 0px 10px #559EEC;
+}
+
+.title_body h4{
+	text-align: center;
+	font-size: 13px;
+	margin: 0px 0px 10px;
+	color: #FFFFFF;
+	text-shadow: 0px 0px 10px #559EEC;
+}
+
+.contenedor{
+	width: 90%;
+	max-width: 900px;
+	margin: auto;
+	height: 80vh; /*vh=Ventana horizontal*/
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+}
+
+.tabla{
+	width: 15%;
+	height: 400px;
+	margin: auto;
+	border: 1px solid #2a5b8f;
+	border-radius: 4px;
+	box-shadow: 0px 0px 4px 0px #343759;
+	padding: 60px;
+	text-align: center;
+	flex-grow: 1;
+	color: #17304b;
+}
+
+.tabla>h2{
+	font-size: 30px;
+	margin-bottom: 35px;
+}
+
+.tabla img{
+	width: 120px;
+	height: 100px;
+	margin-bottom: 35px;
+}
+
+.tabla>h3{
+	font-size: 30px;
+	border-bottom: 20px;
+}
+
+.tabla>p{
+	display: block;
+	border-bottom: 20px;
+}
+
+.boton{
+	display: inline-block;
+	width: 150px;
+	padding: 12px;
+	background: #1DB954;
+	text-decoration: none;
+	color: #FFFFFF;
+	border-radius: 100px;
+	text-align: center;
+	font-size: 15px;
+	font-weight: 500;
+	margin: auto;
+	margin-top: 20px;
+}
+
+.boton:hover{
+	transform: scale(1.2);
+	transition: all 500ms;
+	cursor: pointer;
+	background: #F9BE48;
+	color: #000000;
+}
+
+.tabla:hover, .hover{
+	background: #343759;
+	color: #f1f1f2;
+	transition: 0.5s all;
+	transform: scale(1.1);
+	cursor: pointer;
+}
+
+
+@media screen and (max-width:  1000px){
+	.tabla{
+		width: 45%;
+		max-width: none;
+		margin-bottom: 40px;
+		flex-grow: initial;
+	}
+}
+
+@media screen and (max-width: 700px){
+	.tabla{
+		width: 45%;
+		padding: 30px;
+	}
+	.tabla > h2{
+		margin-top: 40px;
+	}
+}
+
+@media screen and (max-width: 550px){
+	.tabla{
+		width: 85%;
+		padding: 20px;
+	}
+}
+
+.footer-copy-redes{
+	width: 100%;
+	background: #343759;
+	border-top: 4px solid white;
+	margin-top: 40px;
+}
+
+.footer-redes a{
+	display: inline-block;
+	text-decoration: none;
+	width: 35px;
+	height: 35px;
+	line-height: 35px;
+	border-radius: 50%;
+	background: #000000;
+	color: #FFFFFF;
+	text-align: center;
+}
+
+
+.footer-redes a:hover{
+	transform: scale(0.8);
+	transition: all 400ms;
+	cursor: pointer;
+}
+
+
+

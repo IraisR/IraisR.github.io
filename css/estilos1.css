@@ -1,0 +1,73 @@
+body{
+	background:  url(../img/Auto.jpg);
+}
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+	background-size: cover;
+	font-family: Century Gothic;
+}
+
+.box{
+	width: 1000px;
+	background: rgba( 226, 172, 229, 1.0);
+	margin: 0 auto;
+	margin-top: 4%;
+	padding: 20px;
+	color: black;
+	text-align: center;
+	border-radius: 10px;
+}
+
+.image-box{
+	width: 180px;
+	height: 200px;
+
+}
+
+.box h1{
+	font-size: 40px;
+	letter-spacing: 4px;
+	font-weight: 600;
+	margin-bottom: 10px;
+	color: white;
+}
+
+.box h3{
+	font-size: 25px;
+	letter-spacing: 4px;
+	font-weight: 400;
+	margin-bottom: 10px;
+	color: white;
+}
+
+.box p{
+	text-align: center;
+}
+
+.box ul{
+	list-style: none;
+	margin-top: 15px;
+}
+
+.box ul li{
+	display: inline-block;
+}
+
+.box ul li a{
+	color:  black;
+	font-size: 25px;
+	padding: 10px 6px;
+	display: block;
+	transform: all 0.7s ease-in-out;
+}
+
+.box ul li a:hover{
+	color: white;
+	transform: scale(1.4);
+}
